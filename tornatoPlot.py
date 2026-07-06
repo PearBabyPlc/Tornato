@@ -132,8 +132,8 @@ Sigtor = mpcalc.significant_tornado(sbcape, surfaceBasedLCLheight, stormHelicity
 supercellComposite = mpcalc.supercell_composite(mucape, effStormHelicity, effShear)
 SWEAT = mpcalc.sweat_index(p, T, Td, wind_speed, wind_dir)
 
-# write sounding md file for archival purposes
-MDfilename = str(directoryname + filename + ".md")
+# write sounding txt file for archival purposes
+MDfilename = str(directoryname + filename + ".txt")
 SVGfilename = str(directoryname + filename + ".svg")
 with open(MDfilename, 'w') as f:
     f.write(f"{description}\n")
