@@ -138,7 +138,7 @@ with open("igra-stations.kml", "w") as k:
     k.write("<Folder>\n<name>New</name>/n")
     foldus(k, stationsNew)
     k.write("</Folder>\n")
-    k.write("<Folder>\n<name>Inacrive</name>/n")
+    k.write("<Folder>\n<name>Inactive</name>/n")
     foldus(k, stationsInactive)
     k.write("</Folder>\n</Document>\n</kml>")
 
