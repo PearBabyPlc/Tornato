@@ -5835,10 +5835,10 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>F0 Walcha NSW</name>
+<name>F0 35km south of Walcha NSW</name>
 <description>2008-11-28 10:30:00 1067</description>
 <Point>
-<coordinates>0.0000,0.0000,0</coordinates>
+<coordinates>151.55379,-31.28542,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -5849,10 +5849,10 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>F0 Canberra, (northern Suburbs) NSW</name>
+<name>F0 Canberra (northern Suburbs/Gungahlin guess) NSW</name>
 <description>2009-01-22 07:00:00 1069</description>
 <Point>
-<coordinates>0.0000,0.0000,0</coordinates>
+<coordinates>149.132538,-35.184708,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -6941,10 +6941,10 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>F0  WA</name>
+<name>F0 PERTH METRO (Hilton/O'Connor/Claremont) WA</name>
 <description>2014-07-14 00:00:00 1274</description>
 <Point>
-<coordinates>0.0000,0.0000,0</coordinates>
+<coordinates>115.7923713,-32.0595853,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
