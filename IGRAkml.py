@@ -124,7 +124,8 @@ def foldus(k, out):
         k.write("<Placemark>\n")
         k.write(f"<name>{xid}</name>\n")
         k.write(f"<description>Name: {xna}\nLatitude: {xla}\nLongitude: {xlo}\nAltitude: {xal}\nRange: {xst}-{xen} ({xsa} samples</description>\n")
-        k.write(f"<Point>\n<coordinates>{xla},{xlo},{xal}</coordinates>\n</Point>\n")
+        k.write(f"<Point>\n<coordinates>{xlo},{xla},{xal}</coordinates>\n</Point>\n") 
+        # for some weird ass reason latitude and longitude are swapped in kml files, or maybe im just dumb
         k.write("</Placemark>\n")
 
 with open("igra-stations.kml", "w") as k:
@@ -140,3 +141,4 @@ with open("igra-stations.kml", "w") as k:
     k.write("<Folder>\n<name>Inacrive</name>/n")
     foldus(k, stationsInactive)
     k.write("</Folder>\n</Document>\n</kml>")
+
