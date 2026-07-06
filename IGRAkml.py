@@ -99,7 +99,7 @@ for x in stationsInactive:
 print()
 
 stations = stationsActive + stationsNew + stationsInactive
-with open("igra-stations.md", "w") as md:
+with open("igra-stations.txt", "w") as md:
     for x in stations:
         xid = x[0]
         xla = x[1]
